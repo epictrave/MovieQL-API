@@ -1,0 +1,27 @@
+{
+  "name": "movieapi",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql",
+  "main": "index.js",
+  "repository": "https://github.com/epictrave/graphql-movie-api.git",
+  "author": "Janghun Lee flacks12@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.28",
+    "@types/ws": "^6.0.1",
+    "axios": "^0.19.0",
+    "babel-cli": "^6.26.0",
+    "graphql-yoga": "^1.18.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node --exec ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
