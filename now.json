@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "movieql-api",
+  "builds": [{ "src": "*.ts", "use": "@now/node" }],
+  "routes": [{ "src": "/", "dest": "index.ts" }]
+}
