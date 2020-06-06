@@ -9,7 +9,7 @@
   "dependencies": {
     "@types/aws-lambda": "^8.10.28",
     "@types/ws": "^6.0.1",
-    "apollo-server-micro": "^2.6.9",
+    "apollo-server-micro": "^2.14.2",
     "axios": "^0.19.0",
     "babel-cli": "^6.26.0",
     "graphql-yoga": "^1.18.0",
