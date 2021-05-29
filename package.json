@@ -17,7 +17,7 @@
     "subscriptions-transport-ws": "^0.9.16",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3",
-    "ws": "^7.1.0"
+    "ws": "^7.4.6"
   },
   "scripts": {
     "start": "nodemon --exec babel-node --exec ts-node index.ts"
